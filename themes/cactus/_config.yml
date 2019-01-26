@@ -5,7 +5,7 @@
 # Link to a page that gives an overview of all your projects.
 # This can be an external link (e.g., to you GitHub profile) or to another
 # page within your website.
-projects_url: http://github.com/probberechts
+projects_url: http://github.com/xaviripo
 
 # Set the page direction to RTL or LTR. default is LTR. (if you set it 'rtl', the 'vazir' font will be loaded.)
 direction: ltr
@@ -17,19 +17,17 @@ nav:
   home: /
   about: /about/
   articles: /archives/
-  projects: projects_url
-
+  #projects: projects_url
+  Twitter: https://twitter.com/xaviripo
+  GitHub: https://github.com/xaviripo
+  Mail: mailto:xaviripo97@gmail.com
 
 # Links to your social media accounts.
 # The keys should correspond to Fontawesome icon names
 # (see https://fontawesome.com/icons?d=gallery&s=brands);
 # only 'mail' is an exception.
 social_links:
-  github: http://github.com/probberechts/cactus-dark
-  twitter: /
-  facebook: /
-  linkedin: /
-  mail: mailto:name@email.com
+
 
 # Customize the overview with displaying a tagcloud on the index page.
 # Options: https://hexo.io/docs/helpers.html#tagcloud
@@ -69,7 +67,7 @@ post:
 #   - url: where the logo can be found
 #   - gravatar: whether to use your Gravatar as the logo
 logo:
-  enabled: true
+  enabled: false
   width: 50
   height: 50
   url: /images/logo.png
@@ -102,7 +100,7 @@ favicon:
 # Set the color scheme.
 # Available color schemes are 'dark', 'light', 'classic' and 'white'.
 # Alternatively, add your own custom color scheme to source/css/_colors.
-colorscheme: dark
+colorscheme: xaviripo
 
 # Maximal width of the page in rem units.
 page_width: 48
@@ -113,7 +111,7 @@ page_width: 48
 ##############################################################################
 
 # Enable or disable the RSS feed.
-rss: false
+rss:
 
 # Turn your web pages into graph objects (see http://ogp.me).
 open_graph:
