@@ -16,7 +16,7 @@ direction: ltr
 nav:
   home: /
   about: /about/
-  articles: /archives/
+  articles: /blog/
   #projects: projects_url
   Twitter: https://twitter.com/xaviripo
   GitHub: https://github.com/xaviripo
