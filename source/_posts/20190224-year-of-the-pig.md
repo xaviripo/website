@@ -15,17 +15,17 @@ A nap too long, a sleazy wake-up, a day of rest, they're all like leaving pork t
 As children, we're often told the fable of the three little pigs, urging us to strive for the third pig's morals. After the little wolf incident, though, life goes on.
 
 
-## The third pig
+## The Third Pig
 
 The third pig had the biggest and strongest house of them all. It had a basement with a foosball and a pool table. He had two mortgages and worked extra hours to pay for his new car. He died of coronary disease at the ripe-old age of 10 years (amounting to about 54 years for a human).
 
 
-## The second pig
+## The Second Pig
 
 The second pig had formed a family with his wife and three beautiful piglets. His workplace allowed him to leave early on Fridays (once met the requirement he had worked those 2 hours previously). He began taking painting lessons once a week. His deathbed regret was not having spent enough time with his children.
 
 
-## The first pig
+## The First Pig
 
 The first pig was hardly ever heard of by his two brothers. He usually worked part time and changed jobs every 6 months or so. He had lived in five different countries and had played for a state-class football team. He never got to feel the immense pride of being a home owner, nor did he know the warm love of a close family.
 
