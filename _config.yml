@@ -5,7 +5,11 @@
 # Site
 title: Xavier Ripoll
 subtitle:
-description:
+description: |
+  Welcome!
+
+  My name is **Xavier Ripoll**. This is my personal page.
+  You can read more [about me](/about) or [my thoughts](/blog).
 keywords:
 author: Xavier Ripoll
 language: en
