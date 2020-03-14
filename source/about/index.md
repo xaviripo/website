@@ -24,3 +24,7 @@ My interests include (but are not limited to):
 - Chinese calligraphy
 - Metro systems
 
+
+# Favicon
+
+Favicon obtained from the [Twemoji project](https://twemoji.twitter.com/), licensed under the [CC-BY 4.0 license](https://creativecommons.org/licenses/by/4.0/).
