@@ -4,6 +4,8 @@ import commonjs from '@rollup/plugin-commonjs';
 import svelte from 'rollup-plugin-svelte';
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
+import md from '@jackfranklin/rollup-plugin-markdown';
+import glob from 'rollup-plugin-glob'
 import config from 'sapper/config/rollup.js';
 import pkg from './package.json';
 
@@ -52,7 +54,10 @@ export default {
 
 			!dev && terser({
 				module: true
-			})
+			}),
+
+			md(),
+			glob(),
 		],
 
 		onwarn,
@@ -73,7 +78,10 @@ export default {
 			resolve({
 				dedupe: ['svelte']
 			}),
-			commonjs()
+			commonjs(),
+
+			md(),
+			glob(),
 		],
 		external: Object.keys(pkg.dependencies).concat(
 			require('module').builtinModules || Object.keys(process.binding('natives'))
@@ -92,7 +100,10 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			commonjs(),
-			!dev && terser()
+			!dev && terser(),
+
+			md(),
+			glob(),
 		],
 
 		onwarn,
