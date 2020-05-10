@@ -59,6 +59,8 @@
 
 <h1>{post.metadata.title}</h1>
 
+{post.metadata.date.substring(0, 10)}
+
 <div class='content'>
 	{@html post.html}
 </div>
