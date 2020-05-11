@@ -14,8 +14,9 @@
 	}
 
 	ul {
-		margin: 0;
+		margin: 0 auto;
 		padding: 0;
+		max-width: 56em;
 	}
 
 	/* clearfix */
@@ -49,21 +50,34 @@
 		text-decoration: none;
 		padding: 1em 0.5em;
 		display: block;
-	}
-
-	li:first-child {
 		font-variant: small-caps;
 		font-variant-caps: all-small-caps;
 	}
+
+	#home {
+		font-weight: bold;
+	}
+
+	#right {
+		float: right;
+		margin-right: 2em;
+	}
+
 </style>
 
 <nav>
 	<ul>
-		<li><a aria-current='{segment === undefined ? "page" : undefined}' href='.'>Xavier Ripoll</a></li>
+		<li><a id="home" aria-current='{segment === undefined ? "page" : undefined}' href='.'>Xavier Ripoll</a></li>
 		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
 
 		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
 		     the blog data when we hover over the link or tap it on a touchscreen -->
 		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>
+		<li id="right">
+			<ul>
+				<li><a href='https://github.com/xaviripo' target="_blank">GitHub</a></li>
+				<li><a href='https://twitter.com/xaviripo' target="_blank">Twitter</a></li>
+			</ul>
+		</li>
 	</ul>
 </nav>
