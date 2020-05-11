@@ -18,7 +18,7 @@
 </style>
 
 <svelte:head>
-	<title>Blog</title>
+	<title>Xavier Ripoll — Blog</title>
 </svelte:head>
 
 <h1>Blog</h1>

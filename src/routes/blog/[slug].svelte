@@ -54,7 +54,7 @@
 </style>
 
 <svelte:head>
-	<title>{post.metadata.title}</title>
+	<title>Xavier Ripoll — {post.metadata.title}</title>
 </svelte:head>
 
 <h1>{post.metadata.title}</h1>
