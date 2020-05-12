@@ -1,29 +1,6 @@
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/* Global variables */
 :root {
-	--color-main: #ccc;
-	--color-secondary: #eee;
-}
-
-body {
-	margin: 0;
-	margin-top: 50px;
-	line-height: 1.5;
-	font-family: Roboto;
-	font-size: 14px;
-	color: #333;
-	background-color: #eee;
-}
-
-a {
-	color: inherit;
-}
-
-/* Smaller fonts on mobile */
-@media (min-width: 400px) {
-	body {
-		font-size: 18px;
-	}
+	--content-width: 56em;
 }
