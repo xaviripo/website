@@ -6,12 +6,9 @@
 
 <style>
 	main {
-		position: relative;
-		max-width: 56em;
-		background-color: #eee;
-		padding: 2em;
+		width: min(var(--content-width), 100%);
 		margin: 0 auto;
-		box-sizing: border-box;
+		padding: 5em 2em;
 	}
 </style>
 

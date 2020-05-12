@@ -3,81 +3,26 @@
 </script>
 
 <style>
-	nav {
-		border-bottom: 1px solid var(--color-main);
-		padding: 0 1em;
-		background-color: var(--color-main);
-		position: fixed;
-		top: 0;
-		width: 100%;
-		z-index: 999;
+	.navbar {
+		padding-left: max(calc((100% - var(--content-width))/2), 1em);
+		padding-right: max(calc((100% - var(--content-width))/2), 1em);
 	}
-
-	ul {
-		margin: 0 auto;
-		padding: 0;
-		max-width: 56em;
-	}
-
-	/* clearfix */
-	ul::after {
-		content: '';
-		display: block;
-		clear: both;
-	}
-
-	li {
-		display: block;
-		float: left;
-	}
-
-	[aria-current] {
-		position: relative;
-		display: inline-block;
-	}
-
-	[aria-current]::after {
-		position: absolute;
-		content: '';
-		width: calc(100% - 1em);
-		height: 2px;
-		background-color: var(--color-secondary);
-		display: block;
-		bottom: -1px;
-	}
-
-	a {
-		text-decoration: none;
-		padding: 1em 0.5em;
-		display: block;
-		font-variant: small-caps;
-		font-variant-caps: all-small-caps;
-	}
-
-	#home {
-		font-weight: bold;
-	}
-
-	#right {
-		float: right;
-		margin-right: 2em;
-	}
-
 </style>
 
-<nav>
-	<ul>
-		<li><a id="home" aria-current='{segment === undefined ? "page" : undefined}' href='.'>Xavier Ripoll</a></li>
-		<li><a aria-current='{segment === "about" ? "page" : undefined}' href='about'>About</a></li>
 
-		<!-- for the blog link, we're using rel=prefetch so that Sapper prefetches
-		     the blog data when we hover over the link or tap it on a touchscreen -->
-		<li><a rel=prefetch aria-current='{segment === "blog" ? "page" : undefined}' href='blog'>Blog</a></li>
-		<li id="right">
-			<ul>
-				<li><a href='https://github.com/xaviripo' target="_blank">GitHub</a></li>
-				<li><a href='https://twitter.com/xaviripo' target="_blank">Twitter</a></li>
-			</ul>
-		</li>
-	</ul>
+<nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
+	<a class="navbar-brand" href=".">Xavier Ripoll</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	</button>
+	<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		<div class="navbar-nav">
+			<a class="nav-item nav-link {segment === 'about' ? 'active' : ''}" href="about">About</a>
+			<a class="nav-item nav-link {segment === 'blog' ? 'active' : ''}" href="blog">Blog</a>
+		</div>
+		<div class="navbar-nav ml-auto">
+			<a class="nav-item nav-link" href='https://github.com/xaviripo' target="_blank">GitHub</a>
+			<a class="nav-item nav-link" href='https://twitter.com/xaviripo' target="_blank">Twitter</a>
+		</div>
+	</div>
 </nav>
