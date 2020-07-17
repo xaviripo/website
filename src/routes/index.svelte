@@ -4,4 +4,4 @@
 
 <h1>Welcome!</h1>
 
-<p>My name is Xavier Ripoll.</p>
+<p>My name is Xavier Ripoll. This is my personal website.</p>
