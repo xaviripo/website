@@ -4,7 +4,7 @@
 
 <h1>Shop</h1>
 
-<p>If you like me, and want to help me out, you can buy some of my original designs here.</p>
+<p>I enjoy editing images and drawing in my free time. If you like me, or want to help me out, you can buy some of my original designs here. I hope you enjoy them!</p>
 
 <div id="my-store-37952137"></div>
 <div>
