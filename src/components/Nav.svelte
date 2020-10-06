@@ -19,6 +19,7 @@
 		<div class="navbar-nav">
 			<a class="nav-item nav-link {segment === 'about' ? 'active' : ''}" href="about">About</a>
 			<a class="nav-item nav-link {segment === 'blog' ? 'active' : ''}" href="blog">Blog</a>
+			<a class="nav-item nav-link {segment === 'shop' ? 'active' : ''}" href="shop" rel=external>Shop</a>
 		</div>
 		<div class="navbar-nav ml-auto">
 			<a class="nav-item nav-link" href='https://github.com/xaviripo' target="_blank">GitHub</a>
