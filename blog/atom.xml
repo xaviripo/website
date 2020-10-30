@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<!-- Mandatory fields -->
+	<id>https://xavi.rip/</id>
+	<title>Xavier Ripoll — Blog</title>
+	<updated>2020-02-26T00:00:00.000Z</updated>
+
+	<!-- Recommended fields -->
+	<author><name>Xavier Ripoll</name></author>
+	<link rel="self" href="/blog/atom.xml"/>
+
+	<!-- Optional fields -->
+	<icon>/favicon.png</icon>
+	<rights>© 2020 Xavier Ripoll </rights>
+
+	<!-- Entries -->
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/decade-in-review</id>
+		<title>Decade in Review</title>
+		<updated>2019-12-29T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/decade-in-review"/>
+		<link href="https://xavi.rip/blog/decade-in-review"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-12-29T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/the-tale-with-the-girl</id>
+		<title>The Tale with the Girl</title>
+		<updated>2019-11-29T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/the-tale-with-the-girl"/>
+		<link href="https://xavi.rip/blog/the-tale-with-the-girl"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-11-29T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/force-of-habit</id>
+		<title>Force of Habit</title>
+		<updated>2019-10-15T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/force-of-habit"/>
+		<link href="https://xavi.rip/blog/force-of-habit"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-10-15T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/impostor</id>
+		<title>Impostor</title>
+		<updated>2019-09-29T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/impostor"/>
+		<link href="https://xavi.rip/blog/impostor"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-09-29T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/moving-on-backwards</id>
+		<title>Moving on Backwards</title>
+		<updated>2019-08-29T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/moving-on-backwards"/>
+		<link href="https://xavi.rip/blog/moving-on-backwards"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-08-29T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/a-living-memory-of-the-lingering-present</id>
+		<title>A Living Memory of the Lingering Present</title>
+		<updated>2019-07-30T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/a-living-memory-of-the-lingering-present"/>
+		<link href="https://xavi.rip/blog/a-living-memory-of-the-lingering-present"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-07-30T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/why-i-need-pride</id>
+		<title>Why I Need Pride</title>
+		<updated>2019-06-28T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/why-i-need-pride"/>
+		<link href="https://xavi.rip/blog/why-i-need-pride"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-06-28T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/dirty-spot</id>
+		<title>Dirty Spot</title>
+		<updated>2019-05-31T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/dirty-spot"/>
+		<link href="https://xavi.rip/blog/dirty-spot"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-05-31T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/keep-calm-and-carry-on</id>
+		<title>Keep Calm and Carry On (Unironically)</title>
+		<updated>2019-04-30T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/keep-calm-and-carry-on"/>
+		<link href="https://xavi.rip/blog/keep-calm-and-carry-on"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-04-30T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/power-of-will</id>
+		<title>Power of Will</title>
+		<updated>2019-03-31T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/power-of-will"/>
+		<link href="https://xavi.rip/blog/power-of-will"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-03-31T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/year-of-the-pig</id>
+		<title>Year of the Pig</title>
+		<updated>2019-02-26T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/year-of-the-pig"/>
+		<link href="https://xavi.rip/blog/year-of-the-pig"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-02-26T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+	<entry>
+		<!-- Mandatory fields -->
+		<id>https://xavi.rip/blog/voice-and-memory</id>
+		<title>Voice and Memory</title>
+		<updated>2019-01-30T00:00:00.000Z</updated>
+
+		<!-- Recommended fields -->
+		<author><name>Xavier Ripoll</name></author>
+		<content src="https://xavi.rip/blog/voice-and-memory"/>
+		<link href="https://xavi.rip/blog/voice-and-memory"/>
+
+		<!-- Optional fields -->
+		
+		<published>2019-01-30T00:00:00.000Z</published>
+		<rights>© 2019 Xavier Ripoll</rights>
+	</entry>
+
+</feed>
