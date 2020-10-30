@@ -9,6 +9,9 @@
 	}
 </style>
 
+<head>
+	<script src="https://kit.fontawesome.com/42e29c0859.js" crossorigin="anonymous"></script>
+</head>
 
 <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
 	<a class="navbar-brand" href=".">Xavier Ripoll</a>
@@ -22,8 +25,9 @@
 			<a class="nav-item nav-link {segment === 'shop' ? 'active' : ''}" href="shop" rel=external>Shop</a>
 		</div>
 		<div class="navbar-nav ml-auto">
-			<a class="nav-item nav-link" href='https://github.com/xaviripo' target="_blank">GitHub</a>
-			<a class="nav-item nav-link" href='https://twitter.com/xaviripo' target="_blank">Twitter</a>
+			<a class="nav-item nav-link" href='https://github.com/xaviripo' target="_blank"><i title="GitHub" class="fab fa-github-alt"></i></a>
+			<a class="nav-item nav-link" href='https://twitter.com/xaviripo' target="_blank"><i title="Twitter" class="fab fa-twitter"></i></a>
+			<a class="nav-item nav-link" href='blog/atom.xml' target="_blank"><i title="Atom feed" class="fas fa-rss"></i></a>
 		</div>
 	</div>
 </nav>
