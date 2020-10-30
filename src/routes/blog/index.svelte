@@ -11,12 +11,25 @@
 </script>
 
 <style>
-	li {
-		margin-bottom: 1em;
+	ul {
+		list-style-type: none;
+		padding: 0;
 	}
 
-	small {
-		color: #333333;
+	.item {
+		display: block;
+		margin-bottom: 1em;
+		padding: 1em;
+		box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+	}
+
+	.item > small {
+		color: #777777;
+	}
+
+	.item:hover {
+		text-decoration: none;
+		box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.3) 0px 0px 8px;
 	}
 </style>
 
@@ -35,8 +48,10 @@
 				the user hovers over the link or taps it, instead of
 				waiting for the 'click' event -->
 		<li>
-			<a rel='prefetch' href='blog/{post.slug}'>{post.title}</a><br>
-			<small>{post.date.substring(0, 10)}</small>
+			<a rel='prefetch' href='blog/{post.slug}' class='item'>
+				{post.title}<br>
+				<small>{post.date.substring(0, 10)}</small>
+			</a>
 		</li>
 	{/each}
 </ul>
