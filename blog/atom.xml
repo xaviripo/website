@@ -2,13 +2,13 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<!-- Mandatory fields -->
-	<id>https://xavi.rip/</id>
+	<id>https://xavi.rip/blog</id>
 	<title>Xavier Ripoll — Blog</title>
 	<updated>2020-02-26T00:00:00.000Z</updated>
 
 	<!-- Recommended fields -->
 	<author><name>Xavier Ripoll</name></author>
-	<link rel="self" href="/blog/atom.xml"/>
+	<link rel="self" href="https://xavi.rip/blog/atom.xml"/>
 
 	<!-- Optional fields -->
 	<icon>/favicon.png</icon>
@@ -23,8 +23,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/decade-in-review"/>
+		<content type="text/html" src="https://xavi.rip/blog/decade-in-review"/>
 		<link href="https://xavi.rip/blog/decade-in-review"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -39,8 +40,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/the-tale-with-the-girl"/>
+		<content type="text/html" src="https://xavi.rip/blog/the-tale-with-the-girl"/>
 		<link href="https://xavi.rip/blog/the-tale-with-the-girl"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -55,8 +57,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/force-of-habit"/>
+		<content type="text/html" src="https://xavi.rip/blog/force-of-habit"/>
 		<link href="https://xavi.rip/blog/force-of-habit"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -71,8 +74,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/impostor"/>
+		<content type="text/html" src="https://xavi.rip/blog/impostor"/>
 		<link href="https://xavi.rip/blog/impostor"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -87,8 +91,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/moving-on-backwards"/>
+		<content type="text/html" src="https://xavi.rip/blog/moving-on-backwards"/>
 		<link href="https://xavi.rip/blog/moving-on-backwards"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -103,8 +108,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/a-living-memory-of-the-lingering-present"/>
+		<content type="text/html" src="https://xavi.rip/blog/a-living-memory-of-the-lingering-present"/>
 		<link href="https://xavi.rip/blog/a-living-memory-of-the-lingering-present"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -119,8 +125,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/why-i-need-pride"/>
+		<content type="text/html" src="https://xavi.rip/blog/why-i-need-pride"/>
 		<link href="https://xavi.rip/blog/why-i-need-pride"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -135,8 +142,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/dirty-spot"/>
+		<content type="text/html" src="https://xavi.rip/blog/dirty-spot"/>
 		<link href="https://xavi.rip/blog/dirty-spot"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -151,8 +159,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/keep-calm-and-carry-on"/>
+		<content type="text/html" src="https://xavi.rip/blog/keep-calm-and-carry-on"/>
 		<link href="https://xavi.rip/blog/keep-calm-and-carry-on"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -167,8 +176,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/power-of-will"/>
+		<content type="text/html" src="https://xavi.rip/blog/power-of-will"/>
 		<link href="https://xavi.rip/blog/power-of-will"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -183,8 +193,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/year-of-the-pig"/>
+		<content type="text/html" src="https://xavi.rip/blog/year-of-the-pig"/>
 		<link href="https://xavi.rip/blog/year-of-the-pig"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
@@ -199,8 +210,9 @@
 
 		<!-- Recommended fields -->
 		<author><name>Xavier Ripoll</name></author>
-		<content src="https://xavi.rip/blog/voice-and-memory"/>
+		<content type="text/html" src="https://xavi.rip/blog/voice-and-memory"/>
 		<link href="https://xavi.rip/blog/voice-and-memory"/>
+		<summary>undefined</summary>
 
 		<!-- Optional fields -->
 		
