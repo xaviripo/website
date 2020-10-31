@@ -3,6 +3,7 @@ title: Year of the Pig
 slug: year-of-the-pig
 date: 2019-02-26
 tags:
+summary: "Iberian tradition has it that, upon its killing on Saint Martin's day, no part of the pig's body shall go to waste. From the snout to the tail, every bowel, leg, and bone can be given a use."
 ---
 
 

@@ -3,6 +3,7 @@ title: The Tale with the Girl
 slug: the-tale-with-the-girl
 date: 2019-11-29
 tags:
+summary: "I once met this strange girl on the street, the popular-looking, obnoxious kind."
 ---
 
 

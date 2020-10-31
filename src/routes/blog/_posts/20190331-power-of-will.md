@@ -3,6 +3,7 @@ title: Power of Will
 slug: power-of-will
 date: 2019-03-31
 tags:
+summary: "Every morning I overcome (to different degrees of success) the waking up ritual. I manage to get up, sit on my bed, and then finally leave altogether."
 ---
 
 

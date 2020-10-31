@@ -3,6 +3,7 @@ title: Force of Habit
 slug: force-of-habit
 date: 2019-10-15
 tags:
+summary: "This month, as I did last year, I've taken on the Inktober challenge, which consists of making a drawing every day of the month following a prompt each."
 ---
 
 

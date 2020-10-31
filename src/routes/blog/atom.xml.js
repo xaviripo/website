@@ -12,13 +12,13 @@ function makeFeed(entries) {
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<!-- Mandatory fields -->
-	<id>${domain}</id>
+	<id>${domain}blog</id>
 	<title>${fullName} — Blog</title>
 	<updated>${ entries.sort((a, b) => b - a).pop().date }</updated>
 
 	<!-- Recommended fields -->
 	${author}
-	<link rel="self" href="/blog/atom.xml"/>
+	<link rel="self" href="${domain}blog/atom.xml"/>
 
 	<!-- Optional fields -->
 	<icon>/favicon.png</icon>
@@ -27,7 +27,7 @@ function makeFeed(entries) {
 	<!-- Entries -->
 ${entries
 		.reverse()
-		.map(({ title, slug, date, tags }) => `	<entry>
+		.map(({ title, slug, date, tags, summary }) => `	<entry>
 		<!-- Mandatory fields -->
 		<id>${domain}blog/${slug}</id>
 		<title>${title}</title>
@@ -35,11 +35,12 @@ ${entries
 
 		<!-- Recommended fields -->
 		${author}
-		<content src="${domain}blog/${slug}"/>
+		<content type="text/html" src="${domain}blog/${slug}"/>
 		<link href="${domain}blog/${slug}"/>
+		<summary>${summary}</summary>
 
 		<!-- Optional fields -->
-		${(tags || []).map(tag => `<category term="${tag}"/>`)}
+		${(tags || []).map(tag => `<category term="${tag}"/>`).join('\n')}
 		<published>${date}</published>
 		<rights>© ${ date.substring(0, 4) } ${fullName}</rights>
 	</entry>`)
@@ -50,6 +51,10 @@ ${entries
 }
 
 export function get(req, res, next) {
+	res.writeHead(200, {
+		'Content-Type': 'application/atom+xml'
+	});
+
 	// fetch only takes absolute URLs
 	const domain = process.env.NODE_ENV === 'development' ? 'http://localhost:3000' : 'https://xavi.rip';
 	fetch(`${domain}/blog.json`)

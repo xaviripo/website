@@ -3,6 +3,7 @@ title: Decade in Review
 slug: decade-in-review
 date: 2019-12-29
 tags:
+summary: "It seems a little bit surreal to me that only ten years ago I was starting middle school. I started the decade 12 and will be finishing it 22, an age range that may contain some of the boldest moments in the development of any person."
 ---
 
 

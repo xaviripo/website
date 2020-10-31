@@ -3,6 +3,7 @@ title: Why I Need Pride
 slug: why-i-need-pride
 date: 2019-06-28
 tags:
+summary: "A good friend of mine likes to say, \"it's pride as in the opposite of shame\", i.e., not as a feeling of vanity or superiority."
 ---
 
 

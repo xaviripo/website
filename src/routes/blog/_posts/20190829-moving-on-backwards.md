@@ -3,6 +3,7 @@ title: Moving on Backwards
 slug: moving-on-backwards
 date: 2019-08-29
 tags:
+summary: "Peer presure can be one hell of a behavior driver."
 ---
 
 

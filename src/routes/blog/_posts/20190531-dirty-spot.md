@@ -3,6 +3,7 @@ title: Dirty Spot
 slug: dirty-spot
 date: 2019-05-31
 tags:
+summary: "You know the spot between the bed and the wall? Or the one behind that cabinet you never move? Or the one under the sofa where you never look?"
 ---
 
 

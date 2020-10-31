@@ -3,6 +3,7 @@ title: Keep Calm and Carry On (Unironically)
 slug: keep-calm-and-carry-on
 date: 2019-04-30
 tags:
+summary: "This famous British WWII-era phrase may have been rendered meaningless by contemporary abuse. But its literal message can still be revived as a mantra for... well, keeping calm and carrying on, with an accent on a particular application."
 ---
 
 

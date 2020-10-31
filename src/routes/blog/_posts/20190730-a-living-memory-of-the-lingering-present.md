@@ -3,6 +3,7 @@ title: A Living Memory of the Lingering Present
 slug: a-living-memory-of-the-lingering-present
 date: 2019-07-30
 tags:
+summary: "Anyone who knows me well will know that I love the city of Barcelona. It's got a charm that just gets into your heart. But there is something it will never be: my childhood town."
 ---
 
 

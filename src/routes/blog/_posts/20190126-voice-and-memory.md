@@ -3,6 +3,7 @@ title: Voice and Memory
 slug: voice-and-memory
 date: 2019-01-30
 tags:
+summary: "This text is a short portrait of my feelings on the intersection of two interesting topics, both related to the way our brains work."
 ---
 
 

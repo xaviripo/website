@@ -3,6 +3,7 @@ title: Fever Dream
 slug: fever-dream
 date: 2020-02-26
 tags:
+summary: "When I was just a kid, and things got scary, I would climb up to my bed and hide under the covers."
 ---
 
 
