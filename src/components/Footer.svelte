@@ -1,17 +1,18 @@
 <style>
 	footer {
-		padding-left: max(calc((100% - var(--content-width))/2), 1em);
-		padding-right: max(calc((100% - var(--content-width))/2), 1em);
 		font-size: 10pt;
 		color: rgba(0,0,0,0.5);
 		padding-top: 20px;
 		padding-bottom: 20px;
-		text-align: center;
+	}
+
+	footer > div {
+		width: 100%
 	}
 </style>
 
 <footer class="navbar sticky-bottom navbar-light bg-light">
-© {new Date().getFullYear()} Xavier Ripoll
+	<div class="text-center">© {new Date().getFullYear()} Xavier Ripoll</div>
 </footer>
 
 <!-- <nav class="navbar fixed-top navbar-expand-sm navbar-light bg-light">
