@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../components/Nav.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	export let segment;
 </script>
@@ -12,8 +13,12 @@
 	}
 </style>
 
-<Nav {segment}/>
+<div class="d-flex flex-column vertical-fill-wrapper">
+	<Nav {segment}/>
 
-<main>
-	<slot></slot>
-</main>
+	<main class="flex-fill">
+		<slot></slot>
+	</main>
+
+	<Footer/>
+</div>

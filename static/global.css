@@ -1,6 +1,10 @@
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
+body, .vertical-fill-wrapper {
+	min-height: 100vh;
+}
+
 :root {
 	--content-width: 56em;
 }
