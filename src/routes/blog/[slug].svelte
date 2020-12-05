@@ -61,9 +61,11 @@
 	<title>Xavier Ripoll — {post.metadata.title}</title>
 </svelte:head>
 
-<h1>{post.metadata.title}</h1>
+<div class='precontent'>
+	<h1>{post.metadata.title}</h1>
 
-<small>{post.metadata.date.substring(0, 10)}</small><br><br>
+	<small>{post.metadata.date.substring(0, 10)}</small><br><br>
+</div>
 
 <div class='content'>
 	{@html post.html}
