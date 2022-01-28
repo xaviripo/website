@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
-    "export": "sapper export --legacy --entry '/ /404'",
+    "export": "sapper export --legacy --entry '/ /404 /2022-02-02'",
     "postexport": "mv __sapper__/export/404/index.html __sapper__/export/404.html",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",

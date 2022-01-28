@@ -5,15 +5,28 @@
 	export let segment;
 </script>
 
-<style>
-</style>
+{#if segment === '2022-02-02'}
+	<style>
+		body {
+			background-color: rgb(18, 18, 19);
+		}
+	</style>
+{/if}
 
-<div class="d-flex flex-column vertical-fill-wrapper">
-	<Nav {segment}/>
+{#if segment === '2022-02-02'}
+	<div class="d-flex flex-column vertical-fill-wrapper">
+		<main class="flex-fill">
+			<slot></slot>
+		</main>
+	</div>
+{:else}
+	<div class="d-flex flex-column vertical-fill-wrapper">
+		<Nav {segment}/>
 
-	<main class="flex-fill">
-		<slot></slot>
-	</main>
+		<main class="flex-fill">
+			<slot></slot>
+		</main>
 
-	<Footer/>
-</div>
+		<Footer/>
+	</div>
+{/if}
