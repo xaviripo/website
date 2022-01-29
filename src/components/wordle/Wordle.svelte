@@ -1,5 +1,6 @@
 <script>
 
+	import { onMount } from 'svelte';
 	import Entry from './Entry.svelte';
 
 	// Array of strings that are valid guesses
@@ -16,6 +17,12 @@
 
 	// Whether the game has finished
 	let win = false;
+
+	let audio;
+
+	onMount(() => {
+		audio = new Audio('tada.mp3');
+	});
 
 	function handleKeydown(event) {
 
@@ -43,16 +50,12 @@
 			// Victory?
 			if (guess == SOLUTION) {
 				win = true;
-				// Pass in the id of an element
-
-				const audio = new Audio('tada.mp3');
+				audio.play();
 				const jsConfetti = new JSConfetti();
-
 				jsConfetti.addConfetti({
 					confettiRadius: 6,
 					confettiNumber: 500,
 				});
-				audio.play();
 			}
 
 			guess = '';

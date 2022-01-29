@@ -12,8 +12,6 @@
 </script>
 
 <script>
-	import { onMount } from 'svelte';
-
 	import Wordle from '../components/wordle/Wordle.svelte';
 
 	export let validGuesses;

@@ -6,13 +6,37 @@
 	// The maximum allowed length of words.
 	export let length;
 
+	function grey(i) {
+
+		let solutionArr = solution.split('');
+		let wordArr = word.split('');
+
+		// A position is grey if its letterIndex is lower than the number of non-coincidental instances of the letter in the solution
+		let coincidences = solutionArr
+			.map((l, j) => l == wordArr[j] && l == wordArr[i]);
+		let solutionWithoutCoincidences = solutionArr.filter((_, j) => !coincidences[j]);
+
+		let letterIndex = wordArr
+			.map((l, j) => [l, j])
+			.filter(([l, j]) => !coincidences[j] && l == wordArr[i])
+			.map(([l, j]) => j)
+			.indexOf(i);
+
+		let noncoincidentalAmount = solutionWithoutCoincidences
+			.reduce((acc, cur) => acc + (cur == wordArr[i]), 0);
+
+		return letterIndex > -1 && letterIndex < noncoincidentalAmount;
+
+	}
+
 	function color(i) {
 		if (solution == '') {
 			return 'guess';
 		}
+
 		if (solution[i] == word[i]) {
 			return 'green';
-		} else if (solution.includes(word[i])) {
+		} else if (grey(i)) {
 			return 'yellow';
 		} else {
 			return 'grey';
