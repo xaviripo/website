@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>https://xavi.rip/blog</id>
 	<title>Xavier Ripoll — Blog</title>
-	<updated>2020-02-26T00:00:00.000Z</updated>
+	<updated>2021-05-22T00:00:00.000Z</updated>
 	
 	<author><name>Xavier Ripoll</name></author>
 	<link rel="self" href="https://xavi.rip/blog/atom.xml"/>
@@ -11,6 +11,18 @@
 	<rights>© 2022 Xavier Ripoll </rights>
 
 
+	<entry>
+		<id>https://xavi.rip/blog/fever-dream</id>
+		<title>Fever Dream</title>
+		<updated>2020-02-26T00:00:00.000Z</updated>
+		<author><name>Xavier Ripoll</name></author>
+		<content type="text/html" src="https://xavi.rip/blog/fever-dream"/>
+		<link href="https://xavi.rip/blog/fever-dream"/>
+		<summary>When I was just a kid, and things got scary, I would climb up to my bed and hide under the covers.</summary>
+		
+		<published>2020-02-26T00:00:00.000Z</published>
+		<rights>© 2020 Xavier Ripoll</rights>
+	</entry>
 	<entry>
 		<id>https://xavi.rip/blog/decade-in-review</id>
 		<title>Decade in Review</title>
