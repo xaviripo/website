@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Xavier Ripoll</title>
+
+  <link rel="icon" href="favicon.png" type="image/png" />
+
+  <!-- Inter font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;900&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      text-align: center;
+      animation: glow linear 60s infinite;
+    }
+
+    p, ul {
+      margin-bottom: 40px;
+    }
+
+    h1 {
+      font-size: 80pt;
+      font-weight: 900;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    small {
+      font-size: 20pt;
+      font-weight: 200;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    main {
+      max-width: 600px;
+      margin: auto;
+      font-size: 15pt;
+    }
+
+    @keyframes glow {
+        0% { background-color: #a9def9; }
+        20% { background-color:#e4c1f9; }
+        40% { background-color:#ff99c8; }
+        60% { background-color:#fcf6bd; }
+        80% { background-color:#d0f4de; }
+        100% { background-color:#a9def9; }
+    }
+
+    #wrapper {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    #title {
+      white-space: nowrap;
+    }
+
+    #title a {
+      -webkit-tap-highlight-color: rgba(0,0,0,0);
+    }
+
+    #title span {
+      transition: transform 0.1s, text-shadow 0.1s;
+      display: inline-flex;
+      margin: 0;
+      padding: 0;
+    }
+
+    #title span:hover, #title span:active {
+      transform: translateY(-15px);
+      text-shadow: 0 15px #558ABB;
+    }
+
+    #links {
+      text-align: center;
+    }
+
+    #links li {
+      list-style-type: none;
+      margin-bottom: 5pt;
+      margin-left: -30px;
+    }
+
+    #links a {
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    #links a:hover {
+      text-decoration: underline;
+      text-decoration-style: dashed;
+    }
+
+    #button {
+      cursor: pointer;
+    }
+
+    #button:active {
+      color: #558ABB;
+    }
+
+  </style>
+</head>
+<body>
+  <div id="wrapper">
+    <header>
+      <small>Hi! My name is</small>
+      <h1 id="title">
+        <a onclick="event.preventDefault();" href="#">
+          <span>X</span><span>a</span><span>v</span><span>i</span><span>e</span><span>r</span><wbr>
+          <span>R</span><span>i</span><span>p</span><span>o</span><span>l</span><span>l</span>
+        </a>
+      </h1>
+    </header>
+    <main>
+      <p>
+        Nice to meet you! I am a developer with interest in type theory, programming languages, and proof assistants.
+      </p>
+      <ul id="links">
+        <li><i class="bi bi-github"></i> <a href="https://github.com/xaviripo" target="_blank">Take a look at my projects</a></li>
+        <li><i class="bi bi-bookmark-dash-fill"></i> <a href="https://xaviripo.substack.com/" target="_blank">Read some of my ramblings</a></li>
+        <li><i class="bi bi-mailbox2"></i> <a href="https://letterboxd.com/xaviripo/" target="_blank">See what I watch</a></li>
+        <li><i class="bi bi-spotify"></i> <a href="https://open.spotify.com/user/bia8p8rinrg6k1qtlf47dp8po" target="_blank">Listen to what I listen to</a></li>
+        <li><i class="bi bi-twitter"></i> <a href="https://twitter.com/xaviripo" target="_blank">See what I follow</a></li>
+      </ul>
+      <p>
+        If you want to get in touch with me, send me an email at <a id="email"></a> <a title="Copy email address to clipboard" id="button" onclick="clipboard(this)"><i class="bi bi-clipboard2"></i></a>.
+      </p>
+    </main>
+  </div>
+  <script>
+
+    // Decode email and put it in website
+    const emailText = atob('eGF2aXJpcG85N0BnbWFpbC5jb20=');
+    const emailElement = document.getElementById('email');
+    emailElement.setAttribute('href', `mailto:${emailText}`);
+    emailElement.innerText = emailText;
+
+    // Copy email to clipboard button
+    function clipboard() {
+      navigator.clipboard.writeText(emailText);
+    }
+
+  </script>
+</body>
+</html>
